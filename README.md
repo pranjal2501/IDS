@@ -16,6 +16,16 @@ It features a **Flask-based web dashboard** (using **Chart.js**) for **visualizi
 
 ---
 
-## 📂 Project Structure
-
-SLA/ │── IDS.py                # Main Intrusion Detection Script │── log_file/ │   └── log.txt           # Logs detected attacks │── dashboard/ │   │── app.py            # Flask Backend │   │── templates/ │   │   └── index.html    # Dashboard UI │   │── static/ │   │   ├── script.js     # JavaScript for Charts │   │   ├── style.css     # Styling for Dashboard
+## 📂 Project Structure  
+```plaintext
+SLA/
+│── IDS.py                # Main Intrusion Detection Script
+│── log_file/
+│   └── log.txt           # Logs detected attacks
+│── dashboard/
+│   │── app.py            # Flask Backend
+│   │── templates/
+│   │   └── index.html    # Dashboard UI
+│   │── static/
+│   │   ├── script.js     # JavaScript for Charts
+│   │   ├── style.css     # Styling for Dashboard
